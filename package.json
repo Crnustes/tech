@@ -1,0 +1,39 @@
+{
+  "name": "agency-web",
+  "version": "1.0.0",
+  "description": "A web application for an agency showcasing services, projects, and a blog.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "prisma": "latest",
+    "next-auth": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "prettier": "latest"
+  },
+  "keywords": [
+    "agency",
+    "web",
+    "nextjs",
+    "prisma",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
